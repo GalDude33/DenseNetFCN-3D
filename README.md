@@ -1,6 +1,6 @@
-'''DenseNet3D and DenseNet3D-FCN models for Keras.
+# DenseNet3D and DenseNet3D-FCN models for Keras.
 
-''Adapted DenseNet and DensetNet-FCN to work with 3D input for volume classification and segmentation.
+Adapted DenseNet and DensetNet-FCN to work with 3D input for volume classification and segmentation.
 
 DenseNet is a network architecture where each layer is directly connected
 to every other layer in a feed-forward fashion (within each dense block).
@@ -17,7 +17,7 @@ paper "The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for
 Semantic Segmentation". Here, the dense blocks are arranged and concatenated
 with long skip connections for state of the art performance on the CamVid dataset.
 
-# Reference
+## Reference
 - [Densely Connected Convolutional Networks](https://arxiv.org/pdf/1608.06993.pdf)
 - [The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic
    Segmentation](https://arxiv.org/pdf/1611.09326.pdf)
